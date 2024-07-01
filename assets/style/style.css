@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #170b38;
+}
+
+.layout {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__tittle {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pass__input {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+#password {
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: -20px;
+}
+
+.imgcopy {
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: -10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: #8d8d8d;
+    border-radius: 15px;
+}
+
+.btn__generate {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #8d8d8d;
+    color: #fff;
+    font-weight: 650;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.img__generate {
+    width: 20px;
+    margin: 5px 10px 5px 10px;
+}
+
