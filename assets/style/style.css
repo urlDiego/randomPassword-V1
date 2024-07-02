@@ -42,7 +42,28 @@ body {
     padding-bottom: 7px;
 }
 
+.pass__input-1 {
+    width: 100%;
+
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
 #password {
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: -20px;
+}
+
+#input-lenght {
     outline: none;
     border: none;
     padding: 15px;
@@ -77,6 +98,11 @@ body {
     font-size: 18px;
     cursor: pointer;
     border-radius: 10px;
+    transition: all 300ms linear;
+}
+
+.btn__generate:hover {
+    background: #019f55;
 }
 
 .img__generate {
